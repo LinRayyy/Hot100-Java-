@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="hot100(哈希，双指针)">
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/T2_findAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Substring/T1_subarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Substring/T2_maxSlidingWindow.java" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="滑动窗口">
+      <change afterPath="$PROJECT_DIR$/src/Substring/T3_minWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/T1_lengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/T1_lengthOfLongestSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,7 @@
     "Application.T2_findAnagrams.executor": "Debug",
     "Application.T2_maxArea.executor": "Run",
     "Application.T3_longestConsecutive.executor": "Run",
+    "Application.T3_minWindow.executor": "Debug",
     "Application.T3_subarraySum.executor": "Run",
     "Application.T4_trap.executor": "Run",
     "Application.twoSum.executor": "Run",
@@ -71,7 +69,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T1_subarraySum">
+  <component name="RunManager" selected="Application.T3_minWindow">
     <configuration name="T1_lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindow.T1_lengthOfLongestSubstring" />
       <module name="leetcode_hot100" />
@@ -111,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_maxArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoublePointer.T2_maxArea" />
+    <configuration name="T3_minWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Substring.T3_minWindow" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DoublePointer.*" />
+          <option name="PATTERN" value="Substring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T3_minWindow" />
         <item itemvalue="Application.T1_subarraySum" />
         <item itemvalue="Application.T2_findAnagrams" />
         <item itemvalue="Application.T1_lengthOfLongestSubstring" />
         <item itemvalue="Application.T4_trap" />
-        <item itemvalue="Application.T2_maxArea" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +163,7 @@
       <updated>1788572137989</updated>
       <workItem from="1788572139262" duration="16376000" />
       <workItem from="1788742311222" duration="6000" />
+      <workItem from="1789174274825" duration="2983000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -182,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788588334744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="滑动窗口">
+      <option name="closed" value="true" />
+      <created>1789174316017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789174316017</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +197,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hot100(哈希，双指针)" />
-    <option name="LAST_COMMIT_MESSAGE" value="hot100(哈希，双指针)" />
+    <MESSAGE value="滑动窗口" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Substring/T3_minWindow.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Substring/T3_minWindow.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Substring/T3_minWindow.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Substring/T3_minWindow.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
