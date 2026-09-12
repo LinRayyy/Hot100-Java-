@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="滑动窗口2">
-      <change afterPath="$PROJECT_DIR$/src/RegularArray/T1_maxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegularArray/T2_merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegularArray/T3_rotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegularArray/T4_productExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RegularArray/T5_firstMissingPositive.java" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="普通数组">
+      <change afterPath="$PROJECT_DIR$/src/Martix/T1_setZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Martix/T2_spiralOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Martix/T3_rotateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Martix/T4_searchMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/claudeCodeEditorTabs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,16 @@
     "Application.T1_lengthOfLongestSubstring.executor": "Run",
     "Application.T1_maxSubArray.executor": "Run",
     "Application.T1_moveZeroes.executor": "Run",
+    "Application.T1_setZeroes.executor": "Debug",
     "Application.T1_subarraySum.executor": "Debug",
     "Application.T2_findAnagrams.executor": "Debug",
     "Application.T2_maxArea.executor": "Run",
     "Application.T2_merge.executor": "Run",
+    "Application.T2_spiralOrder.executor": "Debug",
     "Application.T3_longestConsecutive.executor": "Run",
     "Application.T3_minWindow.executor": "Debug",
     "Application.T3_rotate.executor": "Run",
+    "Application.T3_rotateMatrix.executor": "Debug",
     "Application.T3_subarraySum.executor": "Run",
     "Application.T4_productExceptSelf.executor": "Debug",
     "Application.T4_trap.executor": "Run",
@@ -78,13 +81,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T5_firstMissingPositive">
-    <configuration name="T1_maxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularArray.T1_maxSubArray" />
+  <component name="RunManager" selected="Application.T4_searchMatrix">
+    <configuration name="T1_setZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Martix.T1_setZeroes" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegularArray.*" />
+          <option name="PATTERN" value="Martix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularArray.T2_merge" />
+    <configuration name="T2_spiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Martix.T2_spiralOrder" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegularArray.*" />
+          <option name="PATTERN" value="Martix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularArray.T3_rotate" />
+    <configuration name="T3_rotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Martix.T3_rotateMatrix" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegularArray.*" />
+          <option name="PATTERN" value="Martix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_productExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RegularArray.T4_productExceptSelf" />
+    <configuration name="T4_searchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Martix.T4_searchMatrix" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RegularArray.*" />
+          <option name="PATTERN" value="Martix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T4_searchMatrix" />
+        <item itemvalue="Application.T3_rotateMatrix" />
+        <item itemvalue="Application.T2_spiralOrder" />
+        <item itemvalue="Application.T1_setZeroes" />
         <item itemvalue="Application.T5_firstMissingPositive" />
-        <item itemvalue="Application.T4_productExceptSelf" />
-        <item itemvalue="Application.T3_rotate" />
-        <item itemvalue="Application.T2_merge" />
-        <item itemvalue="Application.T1_maxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +175,7 @@
       <updated>1788572137989</updated>
       <workItem from="1788572139262" duration="16376000" />
       <workItem from="1788742311222" duration="6000" />
-      <workItem from="1789174274825" duration="8190000" />
+      <workItem from="1789174274825" duration="16912000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -206,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789178603493</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="普通数组">
+      <option name="closed" value="true" />
+      <created>1789183387018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789183387018</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +227,8 @@
     <MESSAGE value="hot100(哈希，双指针)" />
     <MESSAGE value="滑动窗口" />
     <MESSAGE value="滑动窗口2" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口2" />
+    <MESSAGE value="普通数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="普通数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -242,19 +254,86 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RegularArray/T5_firstMissingPositive.java</url>
-          <line>21</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/src/Martix/T1_setZeroes.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RegularArray/T5_firstMissingPositive.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/src/Martix/T1_setZeroes.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T1_setZeroes.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T1_setZeroes.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T1_setZeroes.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T2_spiralOrder.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T3_rotateMatrix.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Martix/T3_rotateMatrix.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="matrix" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
