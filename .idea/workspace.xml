@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="滑动窗口">
-      <change afterPath="$PROJECT_DIR$/src/Substring/T3_minWindow.java" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="滑动窗口2">
+      <change afterPath="$PROJECT_DIR$/src/RegularArray/T1_maxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularArray/T2_merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularArray/T3_rotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularArray/T4_productExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegularArray/T5_firstMissingPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,14 +49,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.T1_lengthOfLongestSubstring.executor": "Run",
+    "Application.T1_maxSubArray.executor": "Run",
     "Application.T1_moveZeroes.executor": "Run",
     "Application.T1_subarraySum.executor": "Debug",
     "Application.T2_findAnagrams.executor": "Debug",
     "Application.T2_maxArea.executor": "Run",
+    "Application.T2_merge.executor": "Run",
     "Application.T3_longestConsecutive.executor": "Run",
     "Application.T3_minWindow.executor": "Debug",
+    "Application.T3_rotate.executor": "Run",
     "Application.T3_subarraySum.executor": "Run",
+    "Application.T4_productExceptSelf.executor": "Debug",
     "Application.T4_trap.executor": "Run",
+    "Application.T5_firstMissingPositive.executor": "Debug",
     "Application.twoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,13 +78,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T3_minWindow">
-    <configuration name="T1_lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.T1_lengthOfLongestSubstring" />
+  <component name="RunManager" selected="Application.T5_firstMissingPositive">
+    <configuration name="T1_maxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularArray.T1_maxSubArray" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Substring.*" />
+          <option name="PATTERN" value="RegularArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T1_subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Substring.T1_subarraySum" />
+    <configuration name="T2_merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularArray.T2_merge" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Substring.*" />
+          <option name="PATTERN" value="RegularArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T2_findAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.T2_findAnagrams" />
+    <configuration name="T3_rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularArray.T3_rotate" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Substring.*" />
+          <option name="PATTERN" value="RegularArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_minWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Substring.T3_minWindow" />
+    <configuration name="T4_productExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularArray.T4_productExceptSelf" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Substring.*" />
+          <option name="PATTERN" value="RegularArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_trap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hash.T4_trap" />
+    <configuration name="T5_firstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegularArray.T5_firstMissingPositive" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hash.*" />
+          <option name="PATTERN" value="RegularArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T3_minWindow" />
-        <item itemvalue="Application.T1_subarraySum" />
-        <item itemvalue="Application.T2_findAnagrams" />
-        <item itemvalue="Application.T1_lengthOfLongestSubstring" />
-        <item itemvalue="Application.T4_trap" />
+        <item itemvalue="Application.T5_firstMissingPositive" />
+        <item itemvalue="Application.T4_productExceptSelf" />
+        <item itemvalue="Application.T3_rotate" />
+        <item itemvalue="Application.T2_merge" />
+        <item itemvalue="Application.T1_maxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +172,7 @@
       <updated>1788572137989</updated>
       <workItem from="1788572139262" duration="16376000" />
       <workItem from="1788742311222" duration="6000" />
-      <workItem from="1789174274825" duration="2983000" />
+      <workItem from="1789174274825" duration="8190000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -189,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789174316017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="滑动窗口2">
+      <option name="closed" value="true" />
+      <created>1789178603493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789178603493</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +215,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hot100(哈希，双指针)" />
     <MESSAGE value="滑动窗口" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口" />
+    <MESSAGE value="滑动窗口2" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,6 +240,19 @@
           <url>file://$PROJECT_DIR$/src/Substring/T3_minWindow.java</url>
           <line>38</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RegularArray/T5_firstMissingPositive.java</url>
+          <line>21</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RegularArray/T5_firstMissingPositive.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
