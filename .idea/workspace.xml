@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="hot100(哈希，双指针)">
-      <change afterPath="$PROJECT_DIR$/src/Hash/T4_trap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/T2_findAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Substring/T1_subarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Substring/T2_maxSlidingWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/T1_lengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/T1_lengthOfLongestSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +47,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.T1_lengthOfLongestSubstring.executor": "Run",
     "Application.T1_moveZeroes.executor": "Run",
+    "Application.T1_subarraySum.executor": "Debug",
+    "Application.T2_findAnagrams.executor": "Debug",
     "Application.T2_maxArea.executor": "Run",
     "Application.T3_longestConsecutive.executor": "Run",
+    "Application.T3_subarraySum.executor": "Run",
     "Application.T4_trap.executor": "Run",
     "Application.twoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -62,13 +71,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T4_trap">
-    <configuration name="T1_moveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoublePointer.T1_moveZeroes" />
+  <component name="RunManager" selected="Application.T1_subarraySum">
+    <configuration name="T1_lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.T1_lengthOfLongestSubstring" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DoublePointer.*" />
+          <option name="PATTERN" value="Substring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T1_subarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Substring.T1_subarraySum" />
+      <module name="leetcode_hot100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Substring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2_findAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.T2_findAnagrams" />
+      <module name="leetcode_hot100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Substring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,32 +117,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DoublePointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_twoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hash.T2_twoSum" />
-      <module name="leetcode_hot100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T3_longestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hash.T3_longestConsecutive" />
-      <module name="leetcode_hot100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T1_subarraySum" />
+        <item itemvalue="Application.T2_findAnagrams" />
+        <item itemvalue="Application.T1_lengthOfLongestSubstring" />
         <item itemvalue="Application.T4_trap" />
         <item itemvalue="Application.T2_maxArea" />
-        <item itemvalue="Application.T1_moveZeroes" />
-        <item itemvalue="Application.T3_longestConsecutive" />
-        <item itemvalue="Application.T2_twoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +163,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1788572137989</updated>
-      <workItem from="1788572139262" duration="8770000" />
+      <workItem from="1788572139262" duration="16376000" />
+      <workItem from="1788742311222" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -164,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788585252365</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hot100(哈希，双指针)">
+      <option name="closed" value="true" />
+      <created>1788588334744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788588334744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
