@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="矩阵操作">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/ListNodeHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T1_getIntersectionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T2_reverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T3_isPalindrome.java" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="链表">
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T4_hasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T5_detectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T6_mergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T7_addTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T8_removeNthFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T9_swapPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +65,11 @@
     "Application.T3_rotate.executor": "Run",
     "Application.T3_rotateMatrix.executor": "Debug",
     "Application.T3_subarraySum.executor": "Run",
+    "Application.T4_hasCycle.executor": "Run",
     "Application.T4_productExceptSelf.executor": "Debug",
     "Application.T4_searchMatrix.executor": "Run",
     "Application.T4_trap.executor": "Run",
+    "Application.T5_detectCycle.executor": "Run",
     "Application.T5_firstMissingPositive.executor": "Debug",
     "Application.twoSum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -84,26 +87,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T3_isPalindrome">
+  <component name="RunManager" selected="Application.T5_detectCycle">
     <configuration name="T2_reverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Linkedlist.T2_reverseList" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2_spiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Martix.T2_spiralOrder" />
-      <module name="leetcode_hot100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Martix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T3_rotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Martix.T3_rotateMatrix" />
+    <configuration name="T4_hasCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.T4_hasCycle" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Martix.*" />
+          <option name="PATTERN" value="Linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T5_detectCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linkedlist.T5_detectCycle" />
+      <module name="leetcode_hot100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T5_detectCycle" />
+        <item itemvalue="Application.T4_hasCycle" />
         <item itemvalue="Application.T3_isPalindrome" />
         <item itemvalue="Application.T2_reverseList" />
         <item itemvalue="Application.T4_searchMatrix" />
-        <item itemvalue="Application.T3_rotateMatrix" />
-        <item itemvalue="Application.T2_spiralOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +182,8 @@
       <workItem from="1788572139262" duration="16376000" />
       <workItem from="1788742311222" duration="6000" />
       <workItem from="1789174274825" duration="17787000" />
-      <workItem from="1789213845306" duration="5069000" />
+      <workItem from="1789213845306" duration="6393000" />
+      <workItem from="1789285845660" duration="8040000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -229,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789203116623</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="链表">
+      <option name="closed" value="true" />
+      <created>1789220774238</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789220774238</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +253,8 @@
     <MESSAGE value="滑动窗口2" />
     <MESSAGE value="普通数组" />
     <MESSAGE value="矩阵操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="矩阵操作" />
+    <MESSAGE value="链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
