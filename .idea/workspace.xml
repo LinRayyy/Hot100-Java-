@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="链表">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T4_hasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T5_detectCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T6_mergeTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T7_addTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T8_removeNthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T9_swapPairs.java" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="链表2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/ideaCode/backen_code/hot100/leetcode_hot100",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -183,7 +178,9 @@
       <workItem from="1788742311222" duration="6000" />
       <workItem from="1789174274825" duration="17787000" />
       <workItem from="1789213845306" duration="6393000" />
-      <workItem from="1789285845660" duration="8040000" />
+      <workItem from="1789285845660" duration="8386000" />
+      <workItem from="1789349987814" duration="5000" />
+      <workItem from="1789357641963" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -241,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789220774238</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="链表2">
+      <option name="closed" value="true" />
+      <created>1789294358177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789294358177</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +259,8 @@
     <MESSAGE value="普通数组" />
     <MESSAGE value="矩阵操作" />
     <MESSAGE value="链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表" />
+    <MESSAGE value="链表2" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
