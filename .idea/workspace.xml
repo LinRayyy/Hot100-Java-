@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="链表3">
-      <change afterPath="$PROJECT_DIR$/src/Linkedlist/T12_sortList.java" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="链表">
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T10_rightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T11_flatten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T12_buildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T13_pathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T14_lowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T15_maxPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T1_inorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T2_maxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T3_invertTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T4_isSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T5_diameterOfBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T6_levelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T7_sortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T8_isValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/T9_kthSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinaryTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,47 +57,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.T1_lengthOfLongestSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_maxSubArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_moveZeroes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T1_setZeroes.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.T1_subarraySum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.T2_findAnagrams.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.T2_maxArea.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_merge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_reverseList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T2_spiralOrder.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.T3_isPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_longestConsecutive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_minWindow.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.T3_rotate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T3_rotateMatrix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.T3_subarraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T4_hasCycle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T4_productExceptSelf.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.T4_searchMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T4_trap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T5_detectCycle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.T5_firstMissingPositive.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.twoSum.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ideaCode/backen_code/hot100/leetcode_hot100&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/27811/Downloads/sky-take-out-main/sky-take-out-main/资料/day01/后端初始工程/leetcode_hot100/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.T1_lengthOfLongestSubstring.executor": "Run",
+    "Application.T1_maxSubArray.executor": "Run",
+    "Application.T1_moveZeroes.executor": "Run",
+    "Application.T1_setZeroes.executor": "Debug",
+    "Application.T1_subarraySum.executor": "Debug",
+    "Application.T2_findAnagrams.executor": "Debug",
+    "Application.T2_maxArea.executor": "Run",
+    "Application.T2_merge.executor": "Run",
+    "Application.T2_reverseList.executor": "Run",
+    "Application.T2_spiralOrder.executor": "Debug",
+    "Application.T3_isPalindrome.executor": "Run",
+    "Application.T3_longestConsecutive.executor": "Run",
+    "Application.T3_minWindow.executor": "Debug",
+    "Application.T3_rotate.executor": "Run",
+    "Application.T3_rotateMatrix.executor": "Debug",
+    "Application.T3_subarraySum.executor": "Run",
+    "Application.T4_hasCycle.executor": "Run",
+    "Application.T4_productExceptSelf.executor": "Debug",
+    "Application.T4_searchMatrix.executor": "Run",
+    "Application.T4_trap.executor": "Run",
+    "Application.T5_detectCycle.executor": "Debug",
+    "Application.T5_firstMissingPositive.executor": "Debug",
+    "Application.twoSum.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/ideaCode/backen_code/hot100/leetcode_hot100",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/27811/Downloads/sky-take-out-main/sky-take-out-main/资料/day01/后端初始工程/leetcode_hot100/src/Main.java",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.T5_detectCycle">
     <configuration name="T2_reverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Linkedlist.T2_reverseList" />
@@ -184,7 +199,11 @@
       <workItem from="1789357641963" duration="3000" />
       <workItem from="1789387521338" duration="4713000" />
       <workItem from="1789437025331" duration="3000" />
-      <workItem from="1789626654772" duration="2675000" />
+      <workItem from="1789626654772" duration="7803000" />
+      <workItem from="1791445116315" duration="5000" />
+      <workItem from="1791509797646" duration="3616000" />
+      <workItem from="1792410004361" duration="3500000" />
+      <workItem from="1792650692434" duration="6862000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -258,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789391346792</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="链表">
+      <option name="closed" value="true" />
+      <created>1789634641035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1789634641035</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,10 +297,10 @@
     <MESSAGE value="滑动窗口2" />
     <MESSAGE value="普通数组" />
     <MESSAGE value="矩阵操作" />
-    <MESSAGE value="链表" />
     <MESSAGE value="链表2" />
     <MESSAGE value="链表3" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表3" />
+    <MESSAGE value="链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
