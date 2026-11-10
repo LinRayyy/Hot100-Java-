@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="动态规划" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="贪心">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/贪心" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +211,7 @@
       <workItem from="1794186643644" duration="44000" />
       <workItem from="1794226967218" duration="2135000" />
       <workItem from="1794229124442" duration="4168000" />
-      <workItem from="1794295436698" duration="4810000" />
+      <workItem from="1794295436698" duration="5115000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -339,7 +341,55 @@
       <option name="project" value="LOCAL" />
       <updated>1794301302599</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="栈">
+      <option name="closed" value="true" />
+      <created>1794304772484</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1794304772484</updated>
+    </task>
+    <task id="LOCAL-00018" summary="二分查找">
+      <option name="closed" value="true" />
+      <created>1794304842586</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1794304842586</updated>
+    </task>
+    <task id="LOCAL-00019" summary="二回溯">
+      <option name="closed" value="true" />
+      <created>1794304865459</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1794304865459</updated>
+    </task>
+    <task id="LOCAL-00020" summary="双指针">
+      <option name="closed" value="true" />
+      <created>1794304916599</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1794304916599</updated>
+    </task>
+    <task id="LOCAL-00021" summary="哈希">
+      <option name="closed" value="true" />
+      <created>1794304933932</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1794304933932</updated>
+    </task>
+    <task id="LOCAL-00022" summary="字符串">
+      <option name="closed" value="true" />
+      <created>1794304989347</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1794304989347</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +420,14 @@
     <MESSAGE value="图论" />
     <MESSAGE value="堆" />
     <MESSAGE value="动态规划" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
+    <MESSAGE value="栈" />
+    <MESSAGE value="二分查找" />
+    <MESSAGE value="二回溯" />
+    <MESSAGE value="双指针" />
+    <MESSAGE value="哈希" />
+    <MESSAGE value="字符串" />
+    <MESSAGE value="贪心" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪心" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
