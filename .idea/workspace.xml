@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="贪心">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/贪心" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="回溯">
+      <change afterPath="$PROJECT_DIR$/src/DP2/T1_uniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/T2_minPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/T3_longestCommonSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/T4_longestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP2/T5_minDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
     "Application.T1_searchInsert.executor": "Debug",
     "Application.T1_setZeroes.executor": "Debug",
     "Application.T1_subarraySum.executor": "Debug",
+    "Application.T1_uniquePaths.executor": "Run",
     "Application.T2_findAnagrams.executor": "Debug",
     "Application.T2_maxArea.executor": "Run",
     "Application.T2_merge.executor": "Run",
@@ -96,13 +102,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T9_canPartition">
-    <configuration name="T3_decodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.T3_decodeString" />
+  <component name="RunManager" selected="Application.T1_uniquePaths">
+    <configuration name="T1_uniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP2.T1_uniquePaths" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="DP2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T1_uniquePaths" />
         <item itemvalue="Application.T9_canPartition" />
         <item itemvalue="Application.T6_wordBreak" />
         <item itemvalue="Application.T5_largestRectangleArea" />
         <item itemvalue="Application.T4_dailyTemperatures" />
-        <item itemvalue="Application.T3_decodeString" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +217,7 @@
       <workItem from="1794186643644" duration="44000" />
       <workItem from="1794226967218" duration="2135000" />
       <workItem from="1794229124442" duration="4168000" />
-      <workItem from="1794295436698" duration="5115000" />
+      <workItem from="1794295436698" duration="10709000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -389,7 +395,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794304989347</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="贪心">
+      <option name="closed" value="true" />
+      <created>1794305010720</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1794305010720</updated>
+    </task>
+    <task id="LOCAL-00024" summary="回溯">
+      <option name="closed" value="true" />
+      <created>1794305036149</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1794305036149</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +449,8 @@
     <MESSAGE value="哈希" />
     <MESSAGE value="字符串" />
     <MESSAGE value="贪心" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心" />
+    <MESSAGE value="回溯" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
