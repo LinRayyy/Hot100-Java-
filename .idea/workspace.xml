@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="回溯">
-      <change afterPath="$PROJECT_DIR$/src/DP2/T1_uniquePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/T2_minPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/T3_longestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/T4_longestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DP2/T5_minDistance.java" afterDir="false" />
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="多维动态规划">
+      <change afterPath="$PROJECT_DIR$/src/Skill/T1_singleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skill/T2_majorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skill/T3_sortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skill/T4_nextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skill/T5_findDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Application.T1_moveZeroes.executor": "Run",
     "Application.T1_searchInsert.executor": "Debug",
     "Application.T1_setZeroes.executor": "Debug",
+    "Application.T1_singleNumber.executor": "Run",
     "Application.T1_subarraySum.executor": "Debug",
     "Application.T1_uniquePaths.executor": "Run",
     "Application.T2_findAnagrams.executor": "Debug",
@@ -102,13 +103,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.T1_uniquePaths">
-    <configuration name="T1_uniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP2.T1_uniquePaths" />
+  <component name="RunManager" selected="Application.T1_singleNumber">
+    <configuration name="T1_singleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Skill.T1_singleNumber" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DP2.*" />
+          <option name="PATTERN" value="Skill.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T4_dailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.T4_dailyTemperatures" />
+    <configuration name="T1_uniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP2.T1_uniquePaths" />
       <module name="leetcode_hot100" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="DP2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T1_singleNumber" />
         <item itemvalue="Application.T1_uniquePaths" />
         <item itemvalue="Application.T9_canPartition" />
         <item itemvalue="Application.T6_wordBreak" />
         <item itemvalue="Application.T5_largestRectangleArea" />
-        <item itemvalue="Application.T4_dailyTemperatures" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,7 @@
       <workItem from="1794186643644" duration="44000" />
       <workItem from="1794226967218" duration="2135000" />
       <workItem from="1794229124442" duration="4168000" />
-      <workItem from="1794295436698" duration="10709000" />
+      <workItem from="1794295436698" duration="14009000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -411,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794305036149</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="多维动态规划">
+      <option name="closed" value="true" />
+      <created>1794310998038</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1794310998038</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +459,8 @@
     <MESSAGE value="字符串" />
     <MESSAGE value="贪心" />
     <MESSAGE value="回溯" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯" />
+    <MESSAGE value="多维动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="多维动态规划" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
