@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="堆">
-      <change afterPath="$PROJECT_DIR$/src/Dp/T10_longestValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T1_climbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T2_generate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T3_rob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T4_numSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T5_coinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T6_wordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T7_lengthOfLIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T8_maxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dp/T9_canPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/T1_maxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/T2_canJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/T3_jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/T4_partitionLabels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7a807086-c4fc-474c-8e18-38f2b7cd6885" name="Changes" comment="动态规划" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +209,7 @@
       <workItem from="1794186643644" duration="44000" />
       <workItem from="1794226967218" duration="2135000" />
       <workItem from="1794229124442" duration="4168000" />
-      <workItem from="1794295436698" duration="4073000" />
+      <workItem from="1794295436698" duration="4810000" />
     </task>
     <task id="LOCAL-00001" summary="hot100(哈希，双指针)">
       <option name="closed" value="true" />
@@ -347,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794228388918</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="动态规划">
+      <option name="closed" value="true" />
+      <created>1794301302599</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1794301302599</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +369,8 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="图论" />
     <MESSAGE value="堆" />
-    <option name="LAST_COMMIT_MESSAGE" value="堆" />
+    <MESSAGE value="动态规划" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
